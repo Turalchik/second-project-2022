@@ -5,11 +5,6 @@ int main(){
 	char s;
 	std::cout << "Введите n: ";
 	std::cin >> n;
-/*
-	for(int i=0; i<n; ++i){
-		std::cout<<'*';
-	}
-*/
 
 	for(int i=1; i<=n; ++i){
 		for(int k=0; k<n-i; ++k){
